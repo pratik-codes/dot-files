@@ -1,0 +1,29 @@
+{
+  "name": "Custom Theme",
+  "colors": {
+    "Ansi 0 Color": "#000000",
+    "Ansi 1 Color": "#EF5350",
+    "Ansi 2 Color": "#3C873A",
+    "Ansi 3 Color": "#FFEB95",
+    "Ansi 4 Color": "#40C4FF",
+    "Ansi 5 Color": "#C792EA",
+    "Ansi 6 Color": "#009688",
+    "Ansi 7 Color": "#E0F8FF",
+    "Ansi 8 Color": "#556172",
+    "Ansi 9 Color": "#FF5370",
+    "Ansi 10 Color": "#C3E88D",
+    "Ansi 11 Color": "#FFCB6B",
+    "Ansi 12 Color": "#82AAFF",
+    "Ansi 13 Color": "#FF79C6",
+    "Ansi 14 Color": "#65E1E1",
+    "Ansi 15 Color": "#FFFFFF",
+    "Background Color": "#263238",
+    "Bold Color": "#FFFFFF",
+    "Cursor Color": "#EEFFFF",
+    "Cursor Text Color": "#000000",
+    "Foreground Color": "#C1C1C1",
+    "Selected Text Color": "#EEFFFF",
+    "Selection Color": "#37474F"
+  }
+}
+
