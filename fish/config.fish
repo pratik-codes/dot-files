@@ -41,8 +41,7 @@ if status is-interactive
     alias ll="eza -l --icons"
 
     # zoxide Aliases
-    alias cd="z"
-    zoxide init fish | source
+    zoxide init --cmd cd fish | source
 
     # Git Functions
     # Git log find by commit message
