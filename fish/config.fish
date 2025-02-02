@@ -1,6 +1,7 @@
 if status is-interactive
     # general aliases
     alias nv="nvim"
+    alias v="nvim"
 
     #  repo paths 
     alias ccl="cd /Users/pratik/code/securly/crextn_client"
@@ -41,7 +42,8 @@ if status is-interactive
     alias ll="eza -l --icons"
 
     # zoxide Aliases
-    zoxide init --cmd cd fish | source
+    alias cd="z"
+    zoxide init fish | source
 
     # Git Functions
     # Git log find by commit message
@@ -101,10 +103,18 @@ if status is-interactive
 
     #tmux alias
     alias tm="tmux"
+    alias tms="tmux source /Users/pratik/code/personal/dot-files/tmux/tmux-solarized/tmux.conf"
     alias tmk="tmux kill-server"
-    alias sctmux="tmux source-file ~/.config/tmux/tmux.conf"
+    alias sctmux="tmux source-file ~/.config/tmux/tmux-tokyonight/.tmux.conf"
     # this is done to avoid the error of tmux not able to find the screen-256color and causes terminal description database error
     export TERM=screen-256color
+
+    # zellij alias
+    alias zl="zellij"
+
+    #alias pnpm
+    alias pd="pnpm run dev"
+    alias pi="pnpm install"
 
     # docker Aliases
     function dockerbash
@@ -123,5 +133,15 @@ if status is-interactive
     set -Ux PATH $BUN_INSTALL/bin $PATH
 
     # Commands to run in interactive sessions can go here
-    oh-my-posh init fish --config https://gist.githubusercontent.com/pratik-codes/c5f984c5acd93cdd10a91dffbf26e868/raw/183e074e55557ea53293ff3f6e9f29195549bf2c/ohmyposh-terminal-theme.json | source
+    # gruvbox theme
+    #oh-my-posh init fish --config https://gist.githubusercontent.com/pratik-codes/83ea4b527c96c354fcce5561dcdf080f/raw/ee54bb065c5143c8047f160c057c71a70ef02e3e/ohmyposh-terminal-theme.-gruvbox.json | source
+
+    # tokyonight theme
+    oh-my-posh init fish --config https://gist.githubusercontent.com/pratik-codes/c5f984c5acd93cdd10a91dffbf26e868/raw/2b816c72feddad3dd3a141b7a2ff23821fdec441/ohmyposh-terminal-theme.json | source
+
+    #solarized osaka
+    #oh-my-posh init fish --config https://gist.githubusercontent.com/pratik-codes/f18f95eaff46b94fbd82a77eb25b08be/raw/8f1569c138f6c64ccddb759c277f70e1bbe23e72/ohmyposh-terminal-theme-solarized.json | source
+
+    # takuya 
+    #oh-my-posh init fish --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/takuya.omp.json | source
 end
