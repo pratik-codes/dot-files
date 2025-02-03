@@ -1,0 +1,328 @@
+{
+  // --------------------- apc settings ---------------------
+  "apc.activityBar": {
+    "position": "bottom",
+    "size": 32
+  },
+  "apc.electron": {
+    "transparent": true,
+    // "backgroundColor": "#00000000",
+    "titleBarStyle": "hiddenInset",
+    "frame": false,
+    "hideSettings": true,
+    "trafficLightPosition": {
+      "x": 1810,
+      "y": 10
+    },
+    "opacity": 1
+  },
+  "apc.listRow": {
+    "height": 32,
+    "fontSize": 14
+  },
+  "apc.header": {
+    "hideSettings": true,
+    "weight": 900,
+    "fontSize": 15,
+    "fontWeight": 900,
+    "height": 28
+  },
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 32,
+    "fontSize": 14
+  },
+
+  // --------------------- apc style css changes ---------------------
+  "apc.stylesheet": {
+    // hides the titlebar
+    // ".tabs-and-actions-container": "display: none !important",
+
+    ".sidebar .title-label": "padding: 0 !important",
+    ".sidebar": "border: none !important",
+    ".tabs-and-actions-container > .editor-actions": "display: none !important",
+    ".titlebar-center": "display: none !important",
+    ".titlebar-right": "display: none !important",
+    ".inline-tabs-placeholder": "display: none !important",
+
+    // pane css (side bar tiles)
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 8px 8px 8px 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    "monaco-tl-row": "border-radius: 8px;",
+    ".monaco-list-row": "border-radius: 8px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
+    ".split-view-view .content:after": "display: none",
+
+    // side bar settings container
+    ".horizontal-activitybar.activitybar-bottom .monaco-workbench .activitybar.bordered:after": "display: none",
+    ".horizontal-activitybar.activitybar-bottom .monaco-workbench .activitybar.bordered:before": "display: none",
+    ".part .activitybar .left .bordered": "border: 1px solid white; margin: auto; border-radius: 8px;",
+
+    // header tabs
+    // ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fixed>.tab-label.tab-label-has-badge:after, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-shrink:not(.tab-actions-left):not(.close-action-off) .tab-label, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-shrink>.tab-label.tab-label-has-badge:after": "padding: 0px",
+    // ".monaco-workbench .part.editor>.content .editor-group-container>.title>.tabs-and-actions-container.tabs-border-bottom:after": "display: none",
+
+    // bottom status bar
+    ".monaco-workbench .part.statusbar.status-border-top:after": "display: none; border: none",
+    // ".monaco-workbench .part.statusbar>.items-container>.statusbar-item": "padding: 0px; border: none; font-weight: 700;  border-radius: 0px; margin: 0px; color: white;",
+
+    // // in order to make accent in bottom status bar corners like vim
+    // ".monaco-workbench .part.statusbar>.items-container>.statusbar-item.left.first-visible-item": "padding-left: 0px; background-color: #7aa2f7; border: none; font-weight: 500; position: relative; margin-right: 0px; color: black;",
+
+    // // Background color for .statusbar-item.right.last-visible-item
+    // ".monaco-workbench .part.statusbar>.items-container>.statusbar-item.right.last-visible-item": "padding-right: 0px; background-color: #7aa2f7; border: none; font-weight: 500; margin: 0px; color: black;",
+
+    // ".statusbar-item": "background-color: #c0caf5; border: none; font-weight: 500; margin-left: 0px !important; border-radius: 0px; color: black !important; position: relative;",
+
+    // ".tab .active": "background-color: orange;"
+
+    // Background color for .statusbar-item-label
+    // ".statusbar-item-label": "padding: 0px; margin: 0px; font-weight: 800; color: white;",
+
+    // Hide tab border top container
+    // ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top>.tab-border-top-container": "display: hidden;",
+
+    // linux specific css
+    // ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fixed>.tab-label.tab-label-has-badge:after, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-shrink:not(.tab-actions-left):not(.close-action-off) .tab-label, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-shrink>.tab-label.tab-label-has-badge:after": "padding: 0px; height: 12px !important; border: none; font-weight: 800; color: white;",
+  },
+
+
+  // ------------------------------- vim settings ---------------------------------
+  "vim.cursorStylePerMode.insert": "line",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.visual": "block",
+  "vim.hlsearch": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "#DC582A",
+  "editor.linkedEditing": true,
+
+  // ---------------------------------  personal editor setting ---------------------------------
+  "editor.fontSize": 17,
+  "prettier.singleQuote": false,
+  "editor.lineHeight": 30,
+  "editor.fontWeight": "400",
+  "editor.formatOnPaste": true,
+  "editor.minimap.enabled": false, // "editor.formatOnSave": true,
+  "window.titleBarStyle": "native", // native/custom
+  "editor.fontFamily": "Jetbrains Mono NL, furaMono Nerd Font, firaMONO NF, Consolas, 'Courier New'",
+  "workbench.statusBar.visible": true,
+
+  // --------------------------------- editor settings ---------------------------------
+  "search.showLineNumbers": true,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.colorCustomizations": {},
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "never"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.inlineSuggest.enabled": true,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Ubuntu (WSL)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": ["-d", "Ubuntu"]
+    }
+  },
+  "terminal.explorerKind": "external",
+  "terminal.integrated.fontFamily": "Jetbrains Mono NL, MesloLGS NF, Fira Code, furaMono Nerd Font, firaMONO NF, Consolas, 'Courier New'",
+  "cSpell.userWords": [
+    "headtxt",
+    "Hypertabs",
+    "mixpanel",
+    "Pratik",
+    "Rammerhead",
+    "rhnewtab",
+    "rhpages",
+    "Tiwari"
+  ],
+  "terminal.integrated.cursorWidth": 5,
+  "json.schemas": [],
+  "editor.scrollbar.horizontalScrollbarSize": 5,
+  "editor.wordWrap": "on",
+  "files.eol": "\n",
+  "editor.tabSize": 5,
+  "editor.inlayHints.fontFamily": "firaMONO NF, FiraCode Nerd Font Mono, furaMono Nerd Font",
+  "terminal.integrated.fontWeight": "700",
+  "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+  "markdown.preview.lineHeight": 1,
+  "terminal.integrated.gpuAcceleration": "off",
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "editor.rename.enablePreview": false,
+  "editor.suggestFontSize": 20,
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "strings": false
+    }
+  },
+  "explorer.confirmDelete": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true,
+    "go": true
+  },
+  "bracketPairColorizer.depreciation-notice": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "workbench.list.smoothScrolling": false,
+  "editor.smoothScrolling": true,
+  "javascript.format.semicolons": "insert",
+  "git.autofetch": true,
+  "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+  "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+  "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+  "cSpell.languageSettings": [],
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "workbench.settings.openDefaultKeybindings": true,
+  "emmet.includeLanguages": {
+    "javascriptreact": "html",
+    "typescriptreact": "html",
+    "javascript": "html",
+    "typescript": "html"
+  },
+  "editor.cursorStyle": "block-outline",
+  "editor.cursorSurroundingLines": 1,
+  "terminal.integrated.smoothScrolling": true,
+  "workbench.settings.useSplitJSON": true,
+  "files.associations": {
+    "*.html.erb": "html",
+    "*.erb": "erb"
+  },
+  "editor.scrollbar.horizontal": "hidden",
+  "errorLens.scrollbarHackEnabled": true,
+  "terminal.integrated.fastScrollSensitivity": 2,
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "turboConsoleLog.quote": "'",
+  "editor.mouseWheelScrollSensitivity": 5,
+  "editor.scrollBeyondLastColumn": 1,
+  "window.commandCenter": false,
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "terminal.integrated.env.linux": {},
+  "editor.formatOnType": true,
+  "workbench.localHistory.enabled": false,
+  "json.format.keepLines": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "prettier.bracketSameLine": true,
+  "terminal.integrated.cursorBlinking": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontVariations": false,
+  "solidity.telemetry": false,
+  "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.focusRecentEditorAfterClose": false,
+  "zenMode.hideStatusBar": true,
+  "go.toolsManagement.autoUpdate": true,
+  "extensions.ignoreRecommendations": true,
+"workbench.editor.enablePreview": false,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "material-icon-theme.saturation": 1,
+  "apc.imports": [
+    "file:///Users/pratik/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
+  ],
+  "git.confirmSync": false,
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    },
+    "fish": {
+      "path": "/usr/local/bin/fish", // overriding
+      "args": ["-l"]
+    }
+  },
+  "symbols.hidesExplorerArrows": false,
+  "workbench.productIconTheme": "jetbrains-idea-product-icon-theme",
+  "update.mode": "manual",
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.fontSize": 16,
+  "background.enabled": true,
+  "background.fullscreen": {
+    "images": "https://wallpapers.com/images/featured-full/cyberpunk-anime-dfyw8eb7bqkw278u.jpg",
+    "opacity": 0.93,
+    "size": "cover",
+    "position": "center",
+    "interval": 0
+  },
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "workbench.activityBar.location": "bottom",
+  "terminal.integrated.env.osx": {
+    "CW_NEW_SESSION": "1"
+  },
+  "editor.cursorBlinking": "solid",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "diffEditor.renderSideBySide": false,
+  "window.menuBarVisibility": "toggle",
+  "git.openRepositoryInParentFolders": "always",
+  "glassit.alpha": 255,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "github.copilot.chat.fixTestFailures": true,
+  "github.copilot.chat.scopeSelection": true,
+  "window.customTitleBarVisibility": "never",
+  "workbench.colorTheme": "GrunBoxTheme",
+  "workbench.iconTheme": "moxer-icons"
+
+  // custom css
+  // "vscode_custom_css.imports": [
+  //   "file:///Users/pratik/code/personal/dot-files/custom.css",
+  //   "file:///Users/pratik/code/personal/dot-files/vscode-script.js"
+  // ],
+}
