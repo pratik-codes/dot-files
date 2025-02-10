@@ -1,0 +1,11 @@
+font-family = JetBrains Mono ExtraBold
+window-title-font-family = JetBrains Mono ExtraBold
+font-size = 16
+theme = tokyonight 
+cursor-style = block
+adjust-cell-height = 45%
+#background-opacity = 0.96
+#background-blur = true
+shell-integration = "fish"
+shell-integration-features = "cursor, title"
+
